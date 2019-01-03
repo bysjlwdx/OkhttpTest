@@ -1,0 +1,11 @@
+导入依赖
+
+compile 'com.android.support:recyclerview-v7:26.1.0'
+compile 'com.squareup.okhttp3:okhttp:3.9.0'
+implementation files('libs/gson-2.3.1.jar')
+compile files('libs/universal-image-loader-1.9.3.jar')
+添加网络权限
+<uses-permission android:name="android.permission.INTERNET"/>
+
+
+https://blog.csdn.net/bai981002/article/details/78662097
